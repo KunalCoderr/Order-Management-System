@@ -1,4 +1,5 @@
 ﻿using OrderManagement.DTOsModels;
+using OrderManagement.Models;
 using OrderManagement.Repositories;
 using OrderManagement.Repositories.Contracts;
 using OrderManagement.Services;
@@ -12,15 +13,17 @@ using System.Web.Http;
 
 namespace OrderManagement.Controllers
 {
-    [RoutePrefix("api/Product")]
+    [RoutePrefix("api/product")]
     public class ProductController : ApiController
     {
         private readonly IProductService _service;
 
-        public ProductController()
+        public ProductController(IProductService service)
         {
-            IProductRepository repo = new ProductRepository();
-            _service = new ProductService(repo);
+            // Manually instantiate required dependencies
+            var dbContext = new OrderManagementEntities(); // your EF context
+            IProductRepository productRepository = new ProductRepository(dbContext);
+            _service = service;
         }
 
         [HttpGet]

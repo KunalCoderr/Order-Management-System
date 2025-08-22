@@ -9,40 +9,53 @@ namespace OrderManagement.Repositories
 {
     public class ProductRepository : IProductRepository
     {
-        private static List<Product> _products = new List<Product>();
-        private static int _nextId = 1;
+        private readonly OrderManagementEntities _context;
+
+        public ProductRepository(OrderManagementEntities context)
+        {
+            _context = context;
+        }
 
         public IEnumerable<Product> GetAll()
         {
-            return _products;
+            return _context.Products.ToList();
         }
 
         public Product GetById(int id)
         {
-            return _products.FirstOrDefault(p => p.Id == id);
+            return _context.Products.FirstOrDefault(p => p.Id == id);
         }
 
         public void Add(Product product)
         {
-            product.Id = _nextId++;
-            _products.Add(product);
+            _context.Products.Add(product);
         }
 
         public void Update(Product product)
         {
-            var existing = GetById(product.Id);
+            var existing = _context.Products.Find(product.Id);
             if (existing != null)
             {
                 existing.Name = product.Name;
                 existing.Price = product.Price;
+                existing.Description = product.Description;
+                existing.CreatedAt = DateTime.UtcNow;
             }
         }
 
         public void Delete(int id)
         {
-            var product = GetById(id);
+            var product = _context.Products.Find(id);
             if (product != null)
-                _products.Remove(product);
+            {
+                _context.Products.Remove(product);
+            }
+        }
+
+        public void Save()
+        {
+            _context.SaveChanges();
         }
     }
+
 }

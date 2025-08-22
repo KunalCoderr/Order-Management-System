@@ -14,5 +14,6 @@ namespace OrderManagement.Repositories.Contracts
         void Add(Product product);
         void Update(Product product);
         void Delete(int id);
+        void Save();
     }
 }

@@ -27,9 +27,12 @@ namespace OrderManagement.Services
             var product = new Product
             {
                 Name = dto.Name,
-                Price = dto.Price
+                Price = dto.Price,
+                Description = dto.Description,
+                CreatedAt = DateTime.UtcNow
             };
             _repo.Add(product);
+            _repo.Save();
         }
 
         public void Update(int id, ProductDTO dto)
@@ -38,11 +41,18 @@ namespace OrderManagement.Services
             {
                 Id = id,
                 Name = dto.Name,
-                Price = dto.Price
+                Price = dto.Price,
+                Description = dto.Description,
+                CreatedAt = DateTime.UtcNow
             };
             _repo.Update(product);
+            _repo.Save();
         }
 
-        public void Delete(int id) => _repo.Delete(id);
+        public void Delete(int id)
+        {
+            _repo.Delete(id);
+            _repo.Save();
+        }
     }
 }
