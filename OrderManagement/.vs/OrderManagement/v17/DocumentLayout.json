@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\OrderManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|d:\\projects\\ordermanagement\\ordermanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|d:\\projects\\ordermanagement\\ordermanagement\\repositories\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|d:\\projects\\ordermanagement\\ordermanagement\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|d:\\projects\\ordermanagement\\ordermanagement\\services\\contracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\services\\contracts\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|d:\\projects\\ordermanagement\\ordermanagement\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|d:\\projects\\ordermanagement\\ordermanagement\\dtosmodels\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\dtosmodels\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|d:\\projects\\ordermanagement\\ordermanagement\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44589F7D-59D5-4B0C-9740-FFB922BF02F3}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "D:\\Projects\\OrderManagement\\OrderManagement\\Global.asax.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Global.asax.cs",
+              "ToolTip": "D:\\Projects\\OrderManagement\\OrderManagement\\Global.asax.cs",
+              "RelativeToolTip": "OrderManagement\\Global.asax.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T09:35:24.331Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\OrderManagement\\OrderManagement\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Projects\\OrderManagement\\OrderManagement\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T10:21:03.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "D:\\Projects\\OrderManagement\\OrderManagement\\DTOsModels\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\DTOsModels\\ProductDTO.cs",
+              "ToolTip": "D:\\Projects\\OrderManagement\\OrderManagement\\DTOsModels\\ProductDTO.cs",
+              "RelativeToolTip": "OrderManagement\\DTOsModels\\ProductDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T09:41:49.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Projects\\OrderManagement\\OrderManagement\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Projects\\OrderManagement\\OrderManagement\\Services\\ProductService.cs",
+              "RelativeToolTip": "OrderManagement\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T09:31:34.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Projects\\OrderManagement\\OrderManagement\\Services\\Contracts\\IProductService.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Services\\Contracts\\IProductService.cs",
+              "ToolTip": "D:\\Projects\\OrderManagement\\OrderManagement\\Services\\Contracts\\IProductService.cs",
+              "RelativeToolTip": "OrderManagement\\Services\\Contracts\\IProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T09:31:04.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\OrderManagement\\OrderManagement\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\Projects\\OrderManagement\\OrderManagement\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAUwC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T09:30:24.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\OrderManagement\\OrderManagement\\Repositories\\Contracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Repositories\\Contracts\\IProductRepository.cs",
+              "ToolTip": "D:\\Projects\\OrderManagement\\OrderManagement\\Repositories\\Contracts\\IProductRepository.cs",
+              "RelativeToolTip": "OrderManagement\\Repositories\\Contracts\\IProductRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T09:29:46.409Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
