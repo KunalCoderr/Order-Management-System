@@ -1,4 +1,5 @@
 ﻿using OrderManagement.DTOsModels;
+using OrderManagement.Filters;
 using OrderManagement.Models;
 using OrderManagement.Repositories;
 using OrderManagement.Repositories.Contracts;
@@ -13,6 +14,7 @@ using System.Web.Http;
 
 namespace OrderManagement.Controllers
 {
+    [AuthorizeSession]
     [RoutePrefix("api/product")]
     public class ProductController : ApiController
     {

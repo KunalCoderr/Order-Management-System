@@ -11,5 +11,6 @@ namespace OrderManagement.Services.Contracts
     {
         bool Register(UserDTO dto);
         string Login(UserDTO dto);
+        bool IsTokenValid(string token);
     }
 }

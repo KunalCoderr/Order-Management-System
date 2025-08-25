@@ -3,3 +3,11 @@
 ################################################################################
 
 /OrderManagement/.vs/OrderManagement/FileContentIndex
+
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+/OrderManagement/.vs/OrderManagement/CopilotIndices/17.14.995.13737

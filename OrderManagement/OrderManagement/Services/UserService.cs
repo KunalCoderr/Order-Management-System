@@ -5,6 +5,7 @@ using OrderManagement.Services.Contracts;
 using OrderManagement.Utilities;
 using System;
 using System.Collections.Generic;
+using System.Collections.Concurrent;
 
 namespace OrderManagement.Services
 {
@@ -12,7 +13,9 @@ namespace OrderManagement.Services
     {
         private readonly IUserRepository _userRepo;
 
-        private static Dictionary<string, (string Username, DateTime Expiry)> _sessionStore = new Dictionary<string, (string Username, DateTime Expiry)>();
+        //private static Dictionary<string, (string Username, DateTime Expiry)> _sessionStore = new Dictionary<string, (string Username, DateTime Expiry)>();
+        private static ConcurrentDictionary<string, (string Username, DateTime Expiry)> _sessionStore
+            = new ConcurrentDictionary<string, (string Username, DateTime Expiry)>();
 
         public UserService(IUserRepository userRepo)
         {
@@ -55,6 +58,21 @@ namespace OrderManagement.Services
             _sessionStore[token] = (user.Username, expiry);
 
             return token;
+        }
+
+        public bool IsTokenValid(string token)
+        {
+            if (string.IsNullOrEmpty(token)) return false;
+
+            if (_sessionStore.TryGetValue(token, out var session))
+            {
+                if (session.Expiry > DateTime.UtcNow)
+                    return true;
+                else
+                    _sessionStore.TryRemove(token, out _);
+            }
+
+            return false;
         }
     }
 }

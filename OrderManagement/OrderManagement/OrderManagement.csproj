@@ -198,6 +198,7 @@
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="DTOsModels\ProductDTO.cs" />
     <Compile Include="DTOsModels\UserDTO.cs" />
+    <Compile Include="Filters\AuthorizeSessionAttribute.cs" />
     <Compile Include="Models\DBModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
